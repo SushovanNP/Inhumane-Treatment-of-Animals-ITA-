@@ -8,5 +8,6 @@ The initial test, train and val sub directories have 350, 75 and 75 video sample
 
 The files have been zipped into 20MB files using 7zip. 7zip can be used to extract them all.
 The directory structure is as such:
+
 ![image](https://github.com/SushovanNP/Inhumane-Treatment-of-Animals-ITA-/assets/66010602/00e6362b-bcf4-415a-9e33-96fb27771d2a)
 

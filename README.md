@@ -5,3 +5,22 @@ ITA has 500 real world videos and the primary purpose behind creating this datas
 The annotation file contains the filename, start and end timestamps for the abuse if present in the video, the duration of the video, label as 'abuse' or 'no_abuse' and the type of abuse: 'industrial', 'personal', 'sport' or 'no_abuse'. The ITA directory structure is currently suitable for binary classification, 'abuse' or 'no_abuse' but can be changed for multiclass classification using the annotation file.
 
 The initial test, train and val sub directories have 350, 75 and 75 video samples respectively.
+
+The files have been zipped into 20MB files using 7zip. 7zip can be used to extract them all.
+The directory structure is as such:
+ITA
+--test
+----abuse
+      1_a.mp4
+      ...
+      ...
+----no_abuse
+      ...
+      ...
+      ...
+--train
+----abuse
+----no_abuse
+--val
+----abuse
+----no_abuse
